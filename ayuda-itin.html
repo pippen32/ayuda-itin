@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="color-scheme" content="light"/>
+<title>Ayuda con el ITIN (Formulario W-7) — Consultoría Omar Cruz</title>
+<meta name="description" content="Preparación del Formulario W-7 para solicitar o renovar tu ITIN. Servicio en español en Hyattsville, MD. $49 preparación · $99 con seguimiento. Consultoría Omar Cruz."/>
+<link rel="icon" href="data:,"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Public+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+:root{--blue:#004b87;--blue2:#005ea8;--blue-dark:#002d4e;--sky:#e8f0f8;--gray:#f2f4f7;--gray2:#e4e8ee;--line:#cbd5e1;--ink:#0f2233;--muted:#52667a;--red:#b42318;--green:#067647;--gold:#b54708;--radius:8px;--shadow:0 1px 3px rgba(0,45,78,.08),0 8px 24px rgba(0,45,78,.06)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Inter","Public Sans",system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.6;font-size:16.5px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.topbar{background:var(--blue-dark);color:#fff}
+.topbar-in{max-width:1080px;margin:0 auto;padding:9px 20px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:.85rem}
+.topbar a{color:#fff;font-weight:700;text-decoration:none}
+.gov-strip{background:var(--sky);border-bottom:1px solid var(--line);font-size:.82rem;color:var(--blue-dark);padding:7px 0;text-align:center;letter-spacing:.02em}
+/* HERO split */
+.hero{border-bottom:3px solid var(--blue);background:linear-gradient(180deg,#fff, var(--gray))}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:32px;padding:40px 0 36px;align-items:center}
+.kicker{font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);margin:0 0 10px}
+h1{font-size:clamp(2rem,5vw,3.1rem);line-height:1.05;font-weight:900;letter-spacing:-.02em;margin:0 0 14px;color:var(--blue-dark)}
+h1 span{color:var(--blue2)}
+.lede{font-size:1.12rem;color:var(--muted);max-width:56ch;margin:0 0 20px}
+.lede strong{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:13px 24px;border-radius:6px;font-weight:800;text-decoration:none;border:2px solid var(--blue)}
+.btn-p{background:var(--blue);color:#fff}.btn-p:hover{background:var(--blue2)}
+.btn-g{background:#fff;color:var(--blue)}
+.ctas{display:flex;gap:12px;flex-wrap:wrap}
+.price-line{margin-top:18px;background:#fff;border:1px solid var(--line);border-left:5px solid var(--blue);padding:12px 16px;border-radius:6px;font-size:.97rem}
+/* Document mock */
+.doc-mock{background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);border-radius:6px;overflow:hidden;transform:rotate(.6deg)}
+.doc-head{background:var(--blue);color:#fff;padding:14px 18px;display:flex;justify-content:space-between;align-items:center}
+.doc-head b{font-size:.95rem;letter-spacing:.04em}.doc-head span{font-size:.75rem;background:#fff;color:var(--blue);font-weight:800;padding:3px 8px;border-radius:4px}
+.doc-body{padding:18px}
+.doc-row{display:flex;justify-content:space-between;border-bottom:1px dashed var(--gray2);padding:9px 0;font-size:.9rem}
+.doc-row span:first-child{color:var(--muted)}.doc-row span:last-child{font-weight:700}
+.doc-stamp{margin-top:14px;border:2px solid var(--green);color:var(--green);font-weight:800;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;padding:8px;text-align:center;border-radius:4px;transform:rotate(-2deg)}
+/* Sections as form parts */
+section{padding:36px 0 6px}
+.part-head{display:flex;gap:14px;align-items:center;margin-bottom:6px}
+.part-no{background:var(--blue);color:#fff;font-weight:900;width:44px;height:44px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:1.05rem;flex:0 0 auto}
+h2{font-size:clamp(1.4rem,3vw,1.9rem);font-weight:900;margin:0;color:var(--blue-dark);line-height:1.2}
+.sub{color:var(--muted);max-width:68ch;margin:6px 0 20px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+table{width:100%;border-collapse:collapse}
+th,td{padding:13px 16px;text-align:left;border-bottom:1px solid var(--gray2);vertical-align:top}
+th{background:var(--sky);font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;color:var(--blue-dark)}
+tr:last-child td{border-bottom:none}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.check{list-style:none;margin:0;padding:8px 0}
+.check li{padding:13px 18px;border-bottom:1px dashed var(--gray2);display:flex;gap:12px}
+.check li:last-child{border-bottom:none}
+.check li::before{content:"✓";font-weight:900;color:var(--green);flex:0 0 auto}
+.check h3{margin:0 0 2px;font-size:1rem}.check p{margin:0;color:var(--muted);font-size:.95rem}
+/* Pricing */
+.price-card{border:1px solid var(--line);border-radius:var(--radius);padding:24px;background:#fff;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.price-card.featured{border:2px solid var(--blue)}
+.price-card .amt{font-size:2.6rem;font-weight:900;color:var(--blue-dark);line-height:1;margin:10px 0 4px}
+.price-card ul{list-style:none;padding:0;margin:14px 0 20px;flex:1}
+.price-card ul li{padding:7px 0 7px 20px;position:relative;border-bottom:1px dashed var(--gray2);font-size:.95rem;color:var(--muted)}
+.price-card ul li::before{content:"—";position:absolute;left:0;color:var(--blue);font-weight:800}
+/* Steps */
+.steps{counter-reset:s}
+.step{display:grid;grid-template-columns:56px 1fr;gap:16px;padding:18px 20px;border-bottom:1px solid var(--gray2)}
+.step:last-child{border-bottom:none}
+.step-n{width:48px;height:48px;border-radius:50%;border:2px solid var(--blue);color:var(--blue);font-weight:900;display:flex;align-items:center;justify-content:center;font-size:1.2rem;background:var(--sky)}
+.step h3{margin:2px 0 3px}.step p{margin:0;color:var(--muted);font-size:.96rem}
+/* Sample */
+.sample{background:#fffef5;border:1.5px solid #e6c87a;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.sample-head{background:#fef3c7;padding:12px 18px;font-weight:800;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.sample-body{padding:20px;font-family:"Public Sans",sans-serif}
+.sample-body .frow{display:grid;grid-template-columns:180px 1fr;gap:10px;padding:8px 0;border-bottom:1px dotted var(--line);font-size:.94rem}
+.sample-body .frow b{color:var(--blue-dark)}
+.watermark{font-size:.82rem;color:var(--muted);font-style:italic;margin-top:12px}
+/* FAQ */
+details{border:1px solid var(--line);border-radius:var(--radius);margin-bottom:10px;background:#fff;box-shadow:var(--shadow)}
+summary{cursor:pointer;padding:16px 20px;font-weight:800;list-style:none;display:flex;justify-content:space-between;gap:10px}
+summary::-webkit-details-marker{display:none}
+details .a{padding:0 20px 18px;color:var(--muted)}details .a p{margin:0 0 8px}
+/* Disclaimer */
+.disclaimer{border:2px solid var(--red);background:#fff5f4;border-radius:var(--radius);padding:24px}
+.disclaimer h2{color:var(--red);font-size:1.35rem}
+.disclaimer p{margin:10px 0 0}
+/* Form */
+.form-head{background:var(--blue-dark);color:#fff;padding:20px 24px;border-radius:var(--radius) var(--radius) 0 0}
+.form-head h2{color:#fff}.form-head p{margin:4px 0 0;color:#bcd6ee}
+form.intake{padding:24px}
+.field{margin-bottom:16px}.field label{display:block;font-weight:700;margin-bottom:6px;font-size:.94rem}
+.field input,.field select,.field textarea{width:100%;min-height:50px;padding:12px 14px;font:inherit;border:1.5px solid var(--line);border-radius:6px;background:#fff}
+.field textarea{min-height:110px}
+.submit{width:100%;min-height:56px;background:var(--blue);color:#fff;border:none;border-radius:6px;font:inherit;font-weight:900;font-size:1.05rem;cursor:pointer}
+.submit:hover{background:var(--blue2)}
+.alt{text-align:center;color:var(--muted);margin-top:14px}.alt a{font-weight:800;color:var(--blue)}
+footer{margin-top:44px;background:var(--blue-dark);color:#cbd5e1;padding:30px 0 36px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer b{color:#fff}footer a{color:#fff}
+@media(max-width:760px){.hero-grid,.grid2,.grid3{grid-template-columns:1fr}.sample-body .frow{grid-template-columns:1fr}.step{grid-template-columns:44px 1fr}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="topbar-in"><span>CONSULTORÍA Y SERVICIOS MÚLTIPLES OMAR CRUZ · HYATTSVILLE, MD</span><a href="tel:+12406590154">☎ 240-659-0154 · WhatsApp</a></div></div>
+<div class="gov-strip">Servicio privado de preparación de documentos — No es una oficina del IRS · El IRS decide cada solicitud</div>
+
+<div class="wrap">
+<header class="hero"><div class="hero-grid">
+<div>
+<p class="kicker">Formulario W-7 · Solicitud y renovación</p>
+<h1>Ayuda con el ITIN, <span>sin enredos</span> con el W-7.</h1>
+<p class="lede">El ITIN es el número que el IRS emite a quienes necesitan declarar impuestos en EE. UU. y no tienen Seguro Social. <strong>Preparamos tu Formulario W-7 completo, revisamos tus documentos y te acompañamos en el envío</strong> — tú dictas tu información, nosotros la ponemos en orden.</p>
+<div class="ctas"><a class="btn btn-p" href="#solicitud">Solicitar ayuda con mi ITIN</a><a class="btn btn-g" href="#precios">Ver precios</a></div>
+<div class="price-line"><strong>Precio claro:</strong> Preparación del W-7 <strong>$49</strong> · Paquete con seguimiento <strong>$99</strong>. El IRS no cobra tarifa por el W-7.</div>
+</div>
+<div class="doc-mock" aria-label="Ejemplo visual de formulario W-7">
+<div class="doc-head"><b>FORM W-7 · IRS</b><span>SIMULACIÓN</span></div>
+<div class="doc-body">
+<div class="doc-row"><span>Tipo de solicitud</span><span>Nuevo / Renovación</span></div>
+<div class="doc-row"><span>Motivo (Reason)</span><span>Declaración de impuestos</span></div>
+<div class="doc-row"><span>Documento de identidad</span><span>Pasaporte vigente</span></div>
+<div class="doc-row"><span>País de ciudadanía</span><span>Según tu pasaporte</span></div>
+<div class="doc-row"><span>Fecha de entrada a EE. UU.</span><span>La que tú declaras</span></div>
+<div class="doc-stamp">Revisado antes de enviar ✓</div>
+<p style="font-size:.8rem;color:var(--muted);margin:12px 0 0">Maqueta ilustrativa. No es un formulario oficial ni un documento real de un cliente.</p>
+</div></div>
+</div></header>
+
+<!-- PARTE 1 -->
+<section><div class="part-head"><span class="part-no">1</span><h2>¿Qué es el ITIN y quién lo necesita?</h2></div>
+<p class="sub">ITIN = Individual Taxpayer Identification Number. Es un número de 9 dígitos que empieza con 9, emitido por el IRS solo para fines de impuestos federales.</p>
+<div class="card"><table>
+<tr><th style="width:38%">Lo necesitas si…</th><th>Ejemplo común</th></tr>
+<tr><td><strong>No tienes SSN y debes declarar impuestos</strong></td><td>Trabajas en EE. UU., recibes ingresos y debes presentar tu declaración federal.</td></tr>
+<tr><td><strong>Eres dependiente o cónyuge</strong> en una declaración</td><td>Tu esposo/a declara y te incluye, pero no tienes Seguro Social.</td></tr>
+<tr><td><strong>Recibes ingresos de EE. UU.</strong> sin vivir aquí</td><td>Rentas, regalías o ingresos sujetos a retención o a un tratado fiscal.</td></tr>
+<tr><td><strong>Tu ITIN venció</strong></td><td>ITINs no usados en 3 años seguidos vencen; también vencieron por tandas los emitidos antes de 2013. Si venció y vas a declarar, hay que renovarlo con un W-7 nuevo.</td></tr>
+</table></div>
+<p class="sub" style="margin-top:14px"><strong>Ojo:</strong> el ITIN <strong>no</strong> es un permiso de trabajo, <strong>no</strong> cambia tu estatus migratorio y <strong>no</strong> te da derecho a beneficios del Seguro Social. Es solo para impuestos.</p>
+</section>
+
+<!-- PARTE 2 -->
+<section><div class="part-head"><span class="part-no">2</span><h2>¿Qué incluye el servicio?</h2></div>
+<div class="grid2">
+<div class="card"><ul class="check">
+<li><div><h3>Preparación completa del W-7</h3><p>Llenamos el formulario con la información que tú nos dictas, en el motivo (reason box) correcto para tu caso.</p></div></li>
+<li><div><h3>Revisión de documentos</h3><p>Verificamos que tu documento de identidad sea de los que el IRS acepta y que esté vigente.</p></div></li>
+<li><div><h3>Lista de envío sin errores</h3><p>Te decimos exactamente qué va en el sobre: W-7, declaración de impuestos (si aplica) y documentos originales o copias certificadas.</p></div></li>
+</ul></div>
+<div class="card"><ul class="check">
+<li><div><h3>Explicación en español, paso a paso</h3><p>Qué va a pasar después de enviarlo, cuánto tarda el IRS y qué carta esperar.</p></div></li>
+<li><div><h3>Paquete con seguimiento ($99)</h3><p>Todo lo anterior + acompañamiento: te ayudamos a responder si el IRS pide más información y verificamos el estado de tu trámite contigo.</p></div></li>
+<li><div><h3>Renovaciones</h3><p>El mismo proceso aplica si tu ITIN venció: W-7 marcado como renovación con tus documentos al día.</p></div></li>
+</ul></div>
+</div></section>
+
+<!-- PARTE 3 -->
+<section><div class="part-head"><span class="part-no">3</span><h2>Documentos que acepta el IRS</h2></div>
+<p class="sub">El IRS exige probar identidad y estatus extranjero. El documento más fuerte es el pasaporte, porque prueba las dos cosas solo.</p>
+<div class="card"><table>
+<tr><th>Documento</th><th>¿Prueba identidad?</th><th>¿Prueba estatus extranjero?</th></tr>
+<tr><td><strong>Pasaporte vigente</strong> (el más recomendado)</td><td>Sí</td><td>Sí — basta solo</td></tr>
+<tr><td>Identificación nacional / cédula de tu país (con foto, nombre, dirección, fecha de nacimiento y vencimiento)</td><td>Sí</td><td>Sí</td></tr>
+<tr><td>Licencia de conducir de EE. UU. o extranjera</td><td>Sí</td><td>No — necesita un segundo documento</td></tr>
+<tr><td>Acta de nacimiento (original o copia certificada)</td><td>No por sí sola</td><td>Sí — se combina con otro documento</td></tr>
+<tr><td>Visa de EE. UU. / tarjeta militar / récord médico o escolar (dependientes menores)</td><td>Según el caso</td><td>Según el caso</td></tr>
+</table></div>
+<p class="sub" style="margin-top:12px">El IRS devuelve los documentos originales por correo en un plazo aproximado de 60 días. También acepta <strong>copias certificadas por la agencia que emitió el documento</strong> — no fotocopias notarizadas comunes. En tu cita revisamos cuál ruta te conviene.</p>
+</section>
+
+<!-- PARTE 4 PRECIOS -->
+<section id="precios"><div class="part-head"><span class="part-no">4</span><h2>Precios</h2></div>
+<div class="grid2">
+<article class="price-card"><p class="kicker">Preparación</p><h3 style="margin:0">W-7 preparado y listo para enviar</h3><div class="amt">$49</div><p style="color:var(--muted);margin:0">Pago único por la preparación</p><ul><li>Formulario W-7 llenado completo</li><li>Revisión de tus documentos de identidad</li><li>Lista exacta de lo que va en el sobre</li><li>Instrucciones de envío al IRS en español</li></ul><a class="btn btn-g" href="#solicitud">Quiero el de $49</a></article>
+<article class="price-card featured"><p class="kicker" style="color:var(--red)">Recomendado · Con acompañamiento</p><h3 style="margin:0">Paquete con seguimiento</h3><div class="amt">$99</div><p style="color:var(--muted);margin:0">Pago único · preparación + seguimiento</p><ul><li>Todo lo del paquete de $49</li><li>Seguimiento del trámite contigo</li><li>Ayuda si el IRS pide información adicional</li><li>Orientación cuando llegue tu carta del IRS (CP 565 / aviso de rechazo)</li></ul><a class="btn btn-p" href="#solicitud">Quiero el de $99</a></article>
+</div>
+<p class="sub" style="margin-top:14px">El IRS <strong>no cobra</strong> por procesar el W-7. Nuestro cobro es solo por la preparación y el acompañamiento. Si tu caso requiere presentar la declaración de impuestos junto al W-7, ese servicio de impuestos se cotiza aparte.</p>
+</section>
+
+<!-- PARTE 5 PROCESO -->
+<section><div class="part-head"><span class="part-no">5</span><h2>El proceso, paso a paso</h2></div>
+<div class="card steps">
+<div class="step"><span class="step-n">1</span><div><h3>Llenas el formulario de esta página o llamas</h3><p>Cuéntanos si es ITIN nuevo o renovación y si vas a declarar impuestos este año. Te contactamos al 240-659-0154.</p></div></div>
+<div class="step"><span class="step-n">2</span><div><h3>Revisamos tus documentos</h3><p>Traes tu pasaporte u otro documento aceptado. Verificamos vigencia y que pruebe lo que el IRS pide.</p></div></div>
+<div class="step"><span class="step-n">3</span><div><h3>Tú dictas, nosotros preparamos el W-7</h3><p>Llenamos cada línea con tu información, tal como tú la declaras. Revisas y firmas tu formulario.</p></div></div>
+<div class="step"><span class="step-n">4</span><div><h3>Se envía el paquete al IRS</h3><p>El W-7 va con tu declaración de impuestos (cuando aplica) y tus documentos originales o copias certificadas, a la dirección del IRS en Austin, Texas, o se presenta en un Centro de Asistencia al Contribuyente con cita.</p></div></div>
+<div class="step"><span class="step-n">5</span><div><h3>El IRS procesa y decide</h3><p>Tiempo típico del IRS: <strong>7 a 11 semanas</strong> (puede ser más en temporada alta de impuestos). El IRS te envía tu ITIN por carta (Aviso CP 565) y devuelve tus documentos originales por separado.</p></div></div>
+</div></section>
+
+<!-- PARTE 6 EJEMPLO -->
+<section><div class="part-head"><span class="part-no">6</span><h2>Ejemplo visible: así se ve un W-7 preparado</h2></div>
+<div class="sample"><div class="sample-head"><span>★ Muestra — Ejemplo ilustrativo</span><span>Datos ficticios</span></div>
+<div class="sample-body">
+<div class="frow"><b>Solicitante (ejemplo)</b><span>María Ejemplo Hernández — datos inventados para esta muestra</span></div>
+<div class="frow"><b>Tipo de solicitud</b><span>☑ Nuevo ITIN &nbsp; ☐ Renovación</span></div>
+<div class="frow"><b>Motivo marcado</b><span>“Nonresident alien required to get ITIN to claim tax treaty benefit” / o el motivo que aplique a tu caso real</span></div>
+<div class="frow"><b>Documento presentado</b><span>Pasaporte vigente del país de ciudadanía (original devuelto por el IRS)</span></div>
+<div class="frow"><b>Va acompañado de</b><span>Declaración federal de impuestos del año en curso</span></div>
+<div class="frow"><b>Resultado esperado</b><span>Carta CP 565 del IRS con el número ITIN asignado — la decisión es siempre del IRS</span></div>
+<p class="watermark">MUESTRA: Esto es un ejemplo con datos ficticios para que veas cómo queda el trabajo. No es un formulario sometido ni garantiza aprobación.</p>
+</div></div></section>
+
+<!-- PARTE 7 FAQ -->
+<section><div class="part-head"><span class="part-no">7</span><h2>Preguntas frecuentes</h2></div>
+<details><summary>¿Cuánto tarda el IRS en darme el ITIN?</summary><div class="a"><p>El IRS indica normalmente <strong>7 semanas</strong> si todo está completo, y hasta <strong>11 semanas</strong> en temporada alta o si envías desde fuera de EE. UU. Si falta algo, el IRS envía una carta pidiendo información y el reloj se extiende.</p></div></details>
+<details><summary>¿El IRS se queda con mi pasaporte?</summary><div class="a"><p>No. El IRS devuelve los documentos originales por correo, generalmente dentro de los 60 días. Por eso muchos clientes prefieren enviar copias certificadas por la agencia emisora o presentar el W-7 en persona en un Centro de Asistencia del IRS con cita. Te explicamos ambas rutas.</p></div></details>
+<details><summary>¿Puedo trabajar con un ITIN?</summary><div class="a"><p><strong>No.</strong> El ITIN es solo para impuestos. No autoriza empleo, no cambia tu estatus migratorio y no sustituye al Seguro Social.</p></div></details>
+<details><summary>¿Mi ITIN venció? ¿Cómo sé?</summary><div class="a"><p>Vence si no se usó en una declaración federal en 3 años consecutivos. También vencieron por tandas los ITIN con dígitos del medio 70–88 y otros grupos anunciados por el IRS. Si vas a declarar y tu ITIN venció, se renueva con un W-7 nuevo — el precio de preparación es el mismo: $49 / $99 con seguimiento.</p></div></details>
+<details><summary>¿Ustedes garantizan que me lo aprueban?</summary><div class="a"><p><strong>No, y nadie honesto puede garantizarlo.</strong> La aprobación la decide únicamente el IRS. Nuestro trabajo es que tu W-7 llegue completo, con el motivo correcto y los documentos correctos, para no perder meses por un error evitable.</p></div></details>
+<details><summary>¿Necesito la declaración de impuestos junto al W-7?</summary><div class="a"><p>En la mayoría de los casos, sí: el W-7 se presenta junto con la declaración federal, salvo excepciones específicas (por ejemplo, ciertos tratados o ingresos con retención). En la revisión te decimos qué aplica a tu caso.</p></div></details>
+</section>
+
+<!-- AVISO -->
+<section><div class="disclaimer"><h2>⚠ Aviso importante — léelo antes de contratar</h2>
+<p><strong>Omar Cruz NO es un Agente de Aceptación Certificado (CAA) del IRS</strong>, no trabaja para el IRS y no debe entenderse que este servicio es del IRS. La Consultoría Omar Cruz es un servicio privado de <strong>preparación y acompañamiento</strong>: preparamos el Formulario W-7 con la información que <strong>el cliente dicta y declara como suya</strong>.</p>
+<p><strong>El IRS es quien único decide</strong> si asigna, renueva o rechaza un ITIN. No garantizamos aprobación ni tiempos del IRS. Este servicio <strong>no es asesoría legal ni asesoría fiscal</strong>: Omar Cruz no es abogado ni contador público certificado (CPA). Para preguntas de impuestos complejas o de inmigración, consulta a un profesional licenciado en esa materia.</p>
+<p>Aviso de Maryland (§ 18-224) en su rol notarial: <em>“I am not an attorney licensed to practice law in this State. I am not allowed to draft legal records, give advice on legal matters, including immigration, or charge a fee for those activities.”</em></p>
+</div></section>
+
+<!-- FORM -->
+<section id="solicitud"><div class="part-head"><span class="part-no">8</span><h2>Solicita tu ayuda con el ITIN</h2></div>
+<div class="card" style="overflow:hidden"><div class="form-head"><h2>Formulario de solicitud</h2><p>Tu información llega directo a nuestro correo. Te contactamos para agendar tu revisión de documentos.</p></div>
+<form class="intake" action="https://formsubmit.co/leydelswing@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="Nueva solicitud — Ayuda ITIN W-7"/>
+<input type="hidden" name="_cc" value="swingbravo@gmail.com"/>
+<input type="hidden" name="_template" value="table"/>
+<input type="hidden" name="_captcha" value="false"/>
+<div class="grid2">
+<div class="field"><label for="n">Nombre completo *</label><input id="n" name="nombre" required autocomplete="name" placeholder="Tu nombre completo"/></div>
+<div class="field"><label for="t">Teléfono *</label><input id="t" name="telefono" type="tel" required autocomplete="tel" placeholder="(240) 000-0000"/></div>
+</div>
+<div class="field"><label for="e">Email *</label><input id="e" name="email" type="email" required autocomplete="email" placeholder="tunombre@correo.com"/></div>
+<div class="grid2">
+<div class="field"><label for="tt">Tipo de trámite *</label><select id="tt" name="tipo de trámite" required><option value="" disabled selected>Selecciona una opción</option><option>ITIN nuevo — Preparación W-7 ($49)</option><option>ITIN nuevo — Paquete con seguimiento ($99)</option><option>Renovación de ITIN — Preparación ($49)</option><option>Renovación de ITIN — Con seguimiento ($99)</option><option>No sé si necesito ITIN / tengo dudas</option></select></div>
+<div class="field"><label for="doc">Documento que tienes</label><select id="doc" name="documento que tiene"><option value="" disabled selected>Selecciona una opción</option><option>Pasaporte vigente</option><option>Cédula / identificación de mi país</option><option>Acta de nacimiento + otra identificación</option><option>Ninguno / no estoy seguro</option></select></div>
+</div>
+<div class="field"><label for="m">Mensaje</label><textarea id="m" name="mensaje" placeholder="Cuéntanos: ¿es nuevo o renovación? ¿vas a declarar impuestos este año? ¿para cuándo lo necesitas?"></textarea></div>
+<button class="submit" type="submit">Enviar mi solicitud →</button>
+<p style="font-size:.85rem;color:var(--muted);text-align:center;margin:12px 0 0">Al enviar aceptas que te contactemos sobre este servicio. No compartimos tus datos.</p>
+</form></div>
+<p class="alt">¿Prefieres llamar? <a href="tel:+12406590154">240-659-0154</a> · WhatsApp · Consultoría Omar Cruz, Hyattsville, MD</p>
+</section>
+</div>
+
+<footer><div class="wrap"><div><b>Consultoría y Servicios Múltiples Omar Cruz</b><br/>Preparación de documentos · Hyattsville, Maryland<br/>Servicio privado — sin afiliación con el IRS. El IRS decide cada solicitud de ITIN.</div><div><a href="tel:+12406590154">240-659-0154</a><br/><a href="#solicitud">Solicitar ayuda</a> · <a href="#precios">Precios</a></div></div></footer>
+</body></html>
